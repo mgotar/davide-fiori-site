@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davide Fiori Perfumes</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Didot', serif;
+      background-image: url('https://i.postimg.cc/Hx1XrxXn/final-dark-perfume-bg.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    header h1 {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 28px;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    header h1 span {
+      font-size: 14px;
+      letter-spacing: 1px;
+      display: block;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .main-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 200px;
+    }
+
+    .main-buttons a {
+      border: 1px solid #d4af37;
+      padding: 10px 20px;
+      margin: 10px;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    .main-buttons a:hover {
+      background-color: #d4af37;
+      color: black;
+    }
+
+    .footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin-top: 100px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .footer-nav a {
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .footer-nav a:hover {
+      border-bottom: 1px solid white;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 20px;
+      }
+
+      .main-buttons a {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+
+      .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .nav-right {
+        flex-direction: column;
+        gap: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <a href="#">IT</a>
+      <a href="#">RU</a>
+      <a href="#">EN</a>
+    </div>
+    <h1>
+      DAVIDE FIORI<br>
+      <span>PERFUMES</span>
+    </h1>
+    <div class="nav-right">
+      <a href="#">AREA CLIENTI</a>
+      <a href="#">CARRELLO 🛒</a>
+    </div>
+  </header>
+
+  <div class="main-buttons">
+    <a href="#">ACQUISTA ORA</a>
+    <a href="#">INFO</a>
+  </div>
+
+  <div class="footer-nav">
+    <a href="#">PROFUMI</a>
+    <a href="#">COSMESI</a>
+    <a href="#">FIORI</a>
+  </div>
+</body>
+</html>
